@@ -7,7 +7,7 @@ BASE_DIR="${XDG_CONFIG_HOME:-$HOME}"
 CYFRIN_DIR="${CYFRIN_DIR:-"$BASE_DIR/.cyfrin"}"
 CYFRIN_BIN_DIR="$CYFRIN_DIR/bin"
 
-SAFE_HASHES_URL="https://raw.githubusercontent.com/cyfrin/safe-tx-hashes/main/safe_hashes.sh"
+SAFE_HASHES_URL="https://raw.githubusercontent.com/dacarva/safe-tx-hashes/main/safe_hashes.sh"
 BIN_PATH="$CYFRIN_BIN_DIR/safe_hashes"
 
 # Create the .cyfrin bin directory and binary if it doesn't exist.
